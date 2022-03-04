@@ -216,6 +216,11 @@ li {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.collections_subcatalog:first-child{
+    color: red;    
+}
+
 .menu__nav {
     padding-left: 290px;
     padding-top: 20px;
