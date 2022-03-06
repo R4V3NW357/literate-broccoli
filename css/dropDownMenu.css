@@ -205,20 +205,23 @@ li {
     padding: 20px;
     transition: all .3s;
 }
+
+.collections_subcatalog_item > a {
+    font-size: large;
+    font-weight: 700;
+    color: green;
+}
+
 .catalog__item:hover .catalog__subcatalog { 
     opacity: 1;
     visibility: visible; 
     left: 260px; 
 }
-.catalog__subcatalog-link {
+.catalog__subcatalog-link{
     font-size: 14px;
     color: #111;
     padding-top: 5px;
     padding-bottom: 5px;
-}
-
-.collections_subcatalog:first-child{
-    color: red;    
 }
 
 .menu__nav {
